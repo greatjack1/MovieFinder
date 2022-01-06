@@ -116,7 +116,7 @@ class MovieViewViewModel : ViewModel() {
     }
 
     val responseStateLiveData: MutableLiveData<ResponseState> by lazy {
-        //Start off the in the default state
+        //Start off in the default waiting for data state
         MutableLiveData<ResponseState>(ResponseState.WAITING)
     }
 
